@@ -18,11 +18,11 @@ Build two predictive models:
 
 * Training data – 28K rows and 184 columns
 
- + convert_30 (boolean) – did customer purchased in next 30 days
+   + convert_30 (boolean) – did customer purchased in next 30 days
  
- + revenue_30 (numeric) -  revenue from customer in next 30 days
+   + revenue_30 (numeric) -  revenue from customer in next 30 days
  
- + Features- customer ID, country, past orders, past orders with no issues, quotes, visit and activities on website,  calls and emails with company, day since Enrolled and Net Promoter Score
+   + Features- customer ID, country, past orders, past orders with no issues, quotes, visit and activities on website,  calls and emails with company, day since Enrolled and Net Promoter Score
 
 * Holdout data – 30K rows and 182 columns - includes features and no outcome variables for a different set of customers
 
