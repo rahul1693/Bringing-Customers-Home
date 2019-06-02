@@ -16,8 +16,10 @@ Saving money incurred on marketing & promotion
 Data:
 Training data – 28K rows and 184 columns
  i. convert_30 (boolean) – did customer purchased in next 30 days
+ 
  ii. revenue_30 (numeric) -  revenue from customer in next 30 days
+ 
 iii. Features- customer ID, country, past orders, past orders with no issues, quotes, visit and activities on website,  calls and emails with company, day since Enrolled and Net Promoter Score
-Holdout data – 30K rows and 182 columns
-includes features but not outcome variables for a different set of customers
+
+Holdout data – 30K rows and 182 columns - includes features and no outcome variables for a different set of customers
 
